@@ -144,9 +144,23 @@ input {
 
 .share-tools{list-style:none;margin:0 auto;padding:0em 0}.share-tools a{padding:0 1em}.share-tools img{margin-right: 5px;height:1.3em}
 
-.footer-logos{list-style:none;margin:0 auto;padding:1em 0}.footer-logos a{padding:0 0em}.footer-logos img{margin-right: 25px;
+.footer-logos{
+  text-align: center;
+  list-style:none;
+  margin:0 auto;
+  padding:1em 0;
+  font-family: 'VT323';
+  font-size: 20px;
+  color: #00CC00;
+}
+
+.footer-logos a{padding:0 0em; color: #00CC00; }
+
+.footer-logos img {
+    margin-right: 25px;
     margin-left: 25px; margin-top: 5px;
-    margin-bottom: 5px; height:2em}
+    margin-bottom: 5px; height:2em
+}
 
 
 
