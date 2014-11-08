@@ -88,6 +88,12 @@ var elizaKeywords = [
   ]]
 */
 
+["club-mate", 100, [
+ ["*", [
+     "That stuff will KILL YOU.",
+  ]]
+]],
+
 ["xnone", 0, [
  ["*", [
      "I'm not sure I understand you fully.",

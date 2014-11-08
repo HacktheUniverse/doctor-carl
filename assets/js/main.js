@@ -10,7 +10,7 @@ $(function() {
         ,textSpeed: 60
         ,promptEnabled: false
         ,overlayImage : 'img/lostpcB.png'
-        ,onFinishedTyping : this.intro
+        ,onFinishedTyping : function(){setTimeout(self.intro, 200);}
       });
 
     },

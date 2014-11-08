@@ -2,7 +2,7 @@
     position: relative;
     width: 400px;
     height: 300px;
-    margin: 60px auto 0;
+    margin: 200xpx auto 0;
     background: #000;
     background-image: url('../img/evenBG.gif');
     overflow: hidden;
@@ -41,6 +41,7 @@
     border: none;
     outline: none;
     font-size: 13px;
+    width: 250px;
     font-family: "Courier",fixed,monospace;
     text-shadow: 0 0 3px;
     text-transform: uppercase;
