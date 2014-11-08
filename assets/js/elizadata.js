@@ -200,7 +200,7 @@ var elizaKeywords = [
      "Time is nothing. We are the legacy of 15 billion years of cosmic evolution."
   ]]
 ]],
-"relationship", 100, [
+["relationship", 100, [
  ["*", [
      "As a comet gets close to the Sun, it loses some of its mass due to the sublimation. If a comet goes around enough times, it will eventually break up. Comets also break up if they come TOO close to the Sun. Relationships are hard. "
   ]]
