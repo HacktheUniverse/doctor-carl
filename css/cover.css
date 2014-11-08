@@ -31,7 +31,7 @@ a:hover {
 html,
 body {
   height: 100%;
- 
+  background-image: url("../assets/images/space.png");
   background-color: #113850;
 
 }

@@ -60,6 +60,15 @@ var elizaPosts = [
 ];
 
 var elizaSynons = {
+"dog": ["dogs", "cats", "pets", "cat", "pet"],
+"lonely": ["alone"],
+"smart": ["stupid"],
+"war": ["voilence"],
+"book": ["books"],
+"god": ["jesus", "relgion"],
+"usa": ["america"],
+"die": ["died", "dead", "death"],
+"love": ["loved"],
 "be": ["am", "is", "are", "was"],
 "belief": ["feel", "think", "believe", "wish"],
 "cannot": ["can't"],
@@ -90,9 +99,152 @@ var elizaKeywords = [
 
 ["club-mate", 100, [
  ["*", [
-     "That stuff will KILL YOU.",
+     "That stuff will KILL YOU."
   ]]
 ]],
+["cat", 100, [
+ ["*", [
+     "Humans (who enslave, castrate, experiment on, and fillet other animals) have had an understandable penchant for pretending animals do not feel pain."
+  ]]
+]],
+["cats",0,[["*", ["goto cat"]]]],
+["pet",0,[["*", ["goto cat"]]]],
+["pets",0,[["*", ["goto cat"]]]],
+["dog",0,[["*", ["goto cat"]]]],
+["dogs",0,[["*", ["goto cat"]]]],
+["alone", 100, [
+ ["*", [
+     "Everyone who was born before the oldest person in the world is now dead."
+  ]]
+]],
+["lonely",0,[["*", ["goto alone"]]]],
+["my life", 100, [
+ ["*", [
+     "Your life is one nine billion. Each of those nine billion machines feels pain, love and dreams of delicious sandwiches."
+  ]]
+]],
+["bad day", 100, [
+ ["*", [
+     "This day is 24 hours. Nothing more."
+  ]]
+]],
+["job", 100, [
+ ["*", [
+     "Your job is to pass on the genetic information encoded in your DNA. Everything else is a beautiful distraction."
+  ]]
+]],
+["die", 100, [
+ ["*", [
+     "Emily Dickinson once said that it will never come again is what makes life so sweet.",
+     "Extinction is the rule. Survival is the exception."
+  ]]
+]],
+["died",0,[["*", ["goto die"]]]],
+["death",0,[["*", ["goto die"]]]],
+["dead",0,[["*", ["goto die"]]]],
+["dying",0,[["*", ["goto die"]]]],
+["dogs",0,[["*", ["goto die"]]]],
+["love", 100, [
+ ["*", [
+     "For small creatures such as we the vastness is bearable only through love.",
+     "I would love to believe that when I die I will live again, that some thinking, feeling, remembering part of me will continue. But much as I want to believe that, and despite the ancient and worldwide cultural traditions that assert an afterlife, I know of nothing to suggest that it is more than wishful thinking."
+  ]]
+]],
+["loved",0,[["*", ["goto love"]]]],
+["book", 100, [
+ ["*", [
+     "Books permit us to voyage through time, to tap the wisdom of our ancestors."
+  ]]
+]],
+["books",0,[["*", ["goto book"]]]],
+["smart", 100, [
+ ["*", [
+     "Other things being equal, it is better to be smart than to be stupid."
+  ]]
+]],
+["stupid",0,[["*", ["goto smart"]]]],
+["war", 100, [
+ ["*", [
+     "War is murder writ large.",
+     "In the long run, the aggressive civilizations destroy themselves, almost always. It’s their nature. They can’t help it."
+  ]]
+]],
+["violence",0,[["*", ["goto war"]]]],
+["god", 100, [
+ ["*", [
+     "If God wanted to send us a message, and ancient writings were the only way he could think of doing it, he could have done a better job.",
+     "Skeptical scrutiny is the means, in both science and religion, by which deep thoughts can be winnowed from deep nonsense.",
+      "A celibate clergy is an especially good idea, because it tends to suppress any hereditary propensity toward fanaticism."
+  ]]
+]],
+["jesus",0,[["*", ["goto god"]]]],
+["relgion",0,[["*", ["goto god"]]]],
+["islam",0,[["*", ["goto god"]]]],
+["muslim",0,[["*", ["goto god"]]]],
+["christian",0,[["*", ["goto god"]]]],
+["usa", 100, [
+ ["*", [
+     "Jingoistic rhetoric and puerile self-congratulatory nationalism."
+  ]]
+]],
+["america",0,[["*", ["goto usa"]]]],
+["math", 100, [
+ ["*", [
+     "Nobody listens to mathematicians."
+  ]]
+]],
+["mathematics",0,[["*", ["goto math"]]]],
+["mathemetician",0,[["*", ["goto math"]]]],
+["time", 100, [
+ ["*", [
+     "Time is nothing. We are the legacy of 15 billion years of cosmic evolution."
+  ]]
+]],
+"relationship", 100, [
+ ["*", [
+     "As a comet gets close to the Sun, it loses some of its mass due to the sublimation. If a comet goes around enough times, it will eventually break up. Comets also break up if they come TOO close to the Sun. Relationships are hard. "
+  ]]
+]],
+["boyfriend",100,[["*", ["goto relationship"]]]],
+["girlfriend",100,[["*", ["goto relationship"]]]],
+["wife",100,[["*", ["goto relationship"]]]],
+["husband",100,[["*", ["goto relationship"]]]],
+["ugly", 100, [
+ ["*", [
+     "Beauty, money, even life itself. They all fade with time. Only the stars endure."
+  ]]
+]],
+["unatractive",100,[["*", ["goto ugly"]]]],
+["money",100,[["*", ["goto ugly"]]]],
+["earth", 100, [
+ ["*", [
+     "Some part of our being knows this is where we came from. We long to return. And we can. Because the cosmos is also within us. We're made of star-stuff. We are a way for the cosmos to know itself."
+  ]]
+]],
+["cosmos",100,[["*", ["goto earth"]]]],
+["star stuff",100,[["*", ["goto earth"]]]],
+
+["politics", 100, [
+ ["*", [
+     "This planet is run by crazy people. Remember what they have to do to get where they are. Their perspective is so narrow, so...brief. A few years. In the best of them a few decades. They care only about the time they are in power."
+  ]]
+]],
+["vote",100,[["*", ["goto politics"]]]],
+["leaders",100,[["*", ["goto politics"]]]],
+["iphone", 100, [
+ ["*", [
+     "We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology."
+  ]]
+]],
+["andriod",100,[["*", ["goto iphone"]]]],
+["ipad",100,[["*", ["goto iphone"]]]],
+["computer",100,[["*", ["goto iphone"]]]],
+["crying", 100, [
+ ["*", [
+     "Crying is ok. Like the surface of the Earth we are roughly 70% water."
+  ]]
+]],
+["tears",100,[["*", ["goto crying"]]]],
 
 ["xnone", 0, [
  ["*", [
@@ -107,13 +259,12 @@ var elizaKeywords = [
 ]],
 ["sorry", 0, [
  ["*", [
-     "Please don't apologise.",
+     "Please don't apologize.",
      "Apologies are not necessary.",
-     "I've told you that apologies are not required.",
      "It did not bother me.  Please continue."
   ]]
 ]],
-["apologise", 0, [
+["apologize", 0, [
  ["*", [
      "goto sorry"
   ]]
@@ -329,10 +480,8 @@ var elizaKeywords = [
      "What does wanting (3) have to do with this discussion?"
   ]],
  ["* i am* @sad *", [
-     "I am sorry to hear that you are (3).",
-     "Do you think coming here will help you not to be (3)?",
-     "I'm sure it's not pleasant to be (3).",
-     "Can you explain what made you (3)?"
+     "I am sorry to hear that you are (3). Eighty or so quick trips around the Sun and all will be silence.",
+     "I'm sure it's not pleasant to be (3) but eighty or so quick trips around the Sun and all will be silence."
   ]],
  ["* i am* @happy *", [
      "How have I helped you to be (3)?",

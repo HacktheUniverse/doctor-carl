@@ -6,11 +6,11 @@ $(function() {
     
     go : function go() {
       this.el.vintageTxt({
-         text : ["Greetings. I'm Doctor Carl, your something something therepist and space stuff etc.",""]
+         text : ["Greetings.", " ", "I'm Doctor Carl.  Your cosmic therapist."]
         ,textSpeed: 60
         ,promptEnabled: false
         ,overlayImage : 'img/lostpcB.png'
-        ,onFinishedTyping : function(){setTimeout(self.intro, 200);}
+        ,onFinishedTyping : function(){setTimeout(self.intro, 1000);}
       });
 
     },

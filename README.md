@@ -8,5 +8,8 @@ Web: http://www.doctor-carl.com
 
 Twitter: http://twitter.com/DoctorCarlBot
 
-Chatbot: http://www.masswerk.at/elizabot
-Space Facts: http://space-facts.com
+Category: WILDCARD
+
+Sources - 
+Chat library: http://www.masswerk.at/elizabot
+Space facts: http://space-facts.com
