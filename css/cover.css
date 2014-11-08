@@ -31,15 +31,16 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: url("http://www.redorbit.com/media/gallery/universe/iod-universe-091711.jpg") no-repeat scroll 0px 100% / cover transparent;
+ 
   background-color: #113850;
 
 }
 body {
   color: #fff;
-  text-align: center;
+  
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+h1 {text-align: center;}
 
 textarea {
   color: #000;
