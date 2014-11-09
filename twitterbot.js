@@ -17,7 +17,7 @@ stream.on('tweet', function (tweet) {
         {
 
             console.log('Tweeted @ by ' + tweet.user.screen_name);
-            T.post('statuses/update', { status: '.@' + tweet.user.screen_name + ' ' + carlquotes[Math.floor(Math.random() * 29)], in_reply_to_status_id: tweet.id_str} , function(err, data, response) {
+            T.post('statuses/update', { status: '@' + tweet.user.screen_name + ' ' + carlquotes[Math.floor(Math.random() * 29)], in_reply_to_status_id: tweet.id_str} , function(err, data, response) {
   				      console.log(data);
 			       });
         }
