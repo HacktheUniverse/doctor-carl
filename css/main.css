@@ -57,10 +57,7 @@ textarea {
 #doThis.vtxt_wrapper {
     width: 598px;
     height: 665px;
-    margin: 5px auto 10px;
-    border-radius: 45px;
-    border: 15px solid black
-    
+    margin: 5px auto 10px;    
 }
 
 #doThis .vtxt_oldSchoolContent {

@@ -9,7 +9,7 @@ $(function() {
          text : ["Greetings.", " ", "I'm Doctor Carl.  Your cosmic therapist."]
         ,textSpeed: 60
         ,promptEnabled: false
-        ,overlayImage : 'img/lostpcB.png'
+        ,overlayImage : 'img/terminal.png'
         ,onFinishedTyping : function(){setTimeout(self.intro, 1000);}
       });
 

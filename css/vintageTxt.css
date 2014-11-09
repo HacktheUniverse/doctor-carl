@@ -3,8 +3,6 @@
     width: 400px;
     height: 300px;
     margin: 200xpx auto 0;
-    background: #000;
-    background-image: url('../img/evenBG.gif');
     overflow: hidden;
 }
 
@@ -22,8 +20,13 @@
     white-space: pre-wrap;
     text-shadow: 0 0 3px;
     text-transform: uppercase;
-    opacity: .75;
     z-index: 50;
+    background-color: #000;
+    background-image: url('../img/evenBG.gif');
+}
+
+.vtxt_oldSchoolContentText {
+    opacity: .8;
 }
 
 .vtxt_oldSchoolContentText a{
