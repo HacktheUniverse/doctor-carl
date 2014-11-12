@@ -406,9 +406,6 @@ var elizaKeywords = [
      "Human beings have a demonstrated talent for self-deception when their emotions are stirred. Do you wish I would tell you you are (2)?",
      "Human beings have a demonstrated talent for self-deception when their emotions are stirred. What would it mean if you were (2)?",
      "goto what"
-  ]],
- ["* i am *", [
-     "goto i"
   ]]
 ]],
 ["your", 0, [
