@@ -10,6 +10,8 @@ Twitter: http://twitter.com/DoctorCarlBot
 
 Category: WILDCARD
 
+Demo from Hack the Universe presentation: http://youtu.be/Pd-GjtFeAXE?list=UUIuhq9LTleLC-GMdAOvvZcg
+
 Sources - 
 Chat library: http://www.masswerk.at/elizabot
 Space facts: http://space-facts.com
